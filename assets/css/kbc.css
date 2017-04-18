@@ -1,0 +1,148 @@
+.kbc-sortable {
+    float: left;
+    margin: 0 3% 11% !important;
+    min-height: 40px;
+    min-width: 186px;
+    width: 94%;
+}
+.kbc-sortable li.ui-sortable-placeholder {
+    border: 1px dashed #bbb;
+    height: 30px;
+    visibility: visible !important;
+    background: #fff;
+}
+.kbc-sortable li {
+    /*margin: 8px 0 0 !important;*/
+}
+
+.kbc-col-wrap {
+    display: inline-block;
+    min-width: 25%;
+    min-height: 200px;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.kbc-body-wrap {
+    width: auto; /* arbitary for demo only */
+    white-space: nowrap;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+.kbc-body-wrap:hover {
+    overflow-x: scroll;
+}
+.kbc-clear {
+    clear: both;
+}
+
+.kbc-li-text {
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    color: #222;
+    cursor: move;
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 3px 3px 3px 7px;
+}
+.kbc-li-text a:hover {
+    color: #0080b3 !important;
+}
+
+.kbc-li-text:hover {
+    border: 1px solid #aeaeae;
+}
+
+.kbc-li-text a {
+    color: #000;
+    font-weight: normal;
+}
+.kbc-ui-dialog {
+    border: medium none !important;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    padding: 10px 15px !important;
+    z-index: 999;
+
+}
+.cpm-task-form {
+    background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px dashed #ccc;
+    margin: 15px 0 10px 15px;
+    padding: 15px;
+    width: 80%;
+
+}
+.cpm-task-form label {
+    display: block;
+}
+.kbc-section-title {
+    margin: 10px 0 8px 3%;
+    color: #555;
+    padding-right: 20px;
+}
+.kbc-action {
+    padding-right: 5px;
+    position: absolute;
+    right: 0;
+}
+
+.kbc-close {
+    color: #878787;
+    cursor: pointer;
+    font-size: 80%;
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    z-index: 999;
+    padding: 0 5px;
+}
+.kbc-new-task {
+    bottom: 3%;
+    color: #878787;
+    cursor: pointer;
+    font-size: 80%;
+    left: 3%;
+    position: absolute;
+    z-index: 999;
+    padding: 0 5px 0 5px;
+}
+
+.kbc-close:hover {
+    background: #D32929;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.kbc-new-task:hover {
+    background: #2ea2cc;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.kbc-task-title {
+    margin: 0 14px 0 28px;
+}
+
+
+li a.cpmkanboard {
+    background-image: url('../images/kanboard.svg');
+}
+
+a.cpmkanboard:hover,
+a.cpmkanboard.active{
+    background-image: url('../images/kanboard-hover.svg');
+
+}

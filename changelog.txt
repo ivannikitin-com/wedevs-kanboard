@@ -1,0 +1,12 @@
+Changelog
+
+`
+= v1.0 (30 May, 2016) =
+
+ - [fix] New design update
+
+= v0.1 =
+
+ - Initial Release
+
+`

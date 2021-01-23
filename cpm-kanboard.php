@@ -34,9 +34,8 @@ Author URI: https://wedevs.com
 if ( !defined( 'ABSPATH' ) ) exit;
 
 if ( is_admin() ) {
-    require_once dirname( __FILE__ ) . '/lib/wedevs-updater.php';
-
-    new WeDevs_Plugin_Update_Checker( plugin_basename( __FILE__ ), 'cpm-kanboard' );
+    //require_once dirname( __FILE__ ) . '/lib/wedevs-updater.php';
+    //new WeDevs_Plugin_Update_Checker( plugin_basename( __FILE__ ), 'cpm-kanboard' );
 }
 
 require_once dirname(__FILE__) . '/kbc-function.php';
